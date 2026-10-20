@@ -1,0 +1,29 @@
+[gd_scene load_steps=7 format=3]
+
+[ext_resource type="Script" path="res://scripts/main.gd" id="1_main"]
+[ext_resource type="Script" path="res://scripts/fx/starfield.gd" id="2_stars"]
+[ext_resource type="Script" path="res://scripts/station/station_view.gd" id="3_view"]
+[ext_resource type="Script" path="res://scripts/station/build_controller.gd" id="4_build"]
+[ext_resource type="Script" path="res://scripts/camera/iso_camera.gd" id="5_cam"]
+[ext_resource type="Script" path="res://scripts/ui/hud.gd" id="6_hud"]
+
+[node name="Main" type="Node2D"]
+script = ExtResource("1_main")
+
+[node name="Background" type="CanvasLayer" parent="."]
+layer = -10
+
+[node name="Starfield" type="Node2D" parent="Background"]
+script = ExtResource("2_stars")
+
+[node name="StationView" type="Node2D" parent="."]
+script = ExtResource("3_view")
+
+[node name="BuildController" type="Node2D" parent="."]
+script = ExtResource("4_build")
+
+[node name="Camera" type="Camera2D" parent="."]
+script = ExtResource("5_cam")
+
+[node name="HUD" type="CanvasLayer" parent="."]
+script = ExtResource("6_hud")

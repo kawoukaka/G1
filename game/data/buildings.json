@@ -1,0 +1,83 @@
+[
+  {
+    "id": "core",
+    "name": "Command Core",
+    "desc": "Heart of the station: a small reactor, two bunks and a storage hold.",
+    "buildable": false,
+    "demolishable": false,
+    "cost": 0,
+    "sprite": "res://assets/sprites/buildings/core.png",
+    "power": 4,
+    "housing": 2,
+    "storage": 60,
+    "battery": 40
+  },
+  {
+    "id": "floor",
+    "name": "Floor",
+    "desc": "Pressurised deck plating. Modules sit on floor. Each tile leaks a little oxygen.",
+    "cost": 10,
+    "sprite": "res://assets/sprites/tiles/floor_top.png"
+  },
+  {
+    "id": "solar",
+    "name": "Solar Array",
+    "desc": "Photovoltaic panels. Free power, forever.",
+    "cost": 60,
+    "sprite": "res://assets/sprites/buildings/solar.png",
+    "power": 5
+  },
+  {
+    "id": "battery",
+    "name": "Battery",
+    "desc": "Stores surplus power and covers deficits before a brownout hits.",
+    "cost": 50,
+    "sprite": "res://assets/sprites/buildings/battery.png",
+    "battery": 60
+  },
+  {
+    "id": "o2_gen",
+    "name": "O2 Generator",
+    "desc": "Splits water into breathable air. Stops when unpowered.",
+    "cost": 90,
+    "sprite": "res://assets/sprites/buildings/o2_gen.png",
+    "power": -3,
+    "produces": { "oxygen": 3 }
+  },
+  {
+    "id": "hydroponics",
+    "name": "Hydroponics",
+    "desc": "Grows food under lamps; the plants add a little oxygen too.",
+    "cost": 110,
+    "sprite": "res://assets/sprites/buildings/hydroponics.png",
+    "power": -2,
+    "produces": { "food": 2, "oxygen": 0.5 }
+  },
+  {
+    "id": "quarters",
+    "name": "Crew Quarters",
+    "desc": "Bunks for four. More beds, more crew.",
+    "cost": 120,
+    "sprite": "res://assets/sprites/buildings/quarters.png",
+    "power": -1,
+    "housing": 4
+  },
+  {
+    "id": "storage",
+    "name": "Storage Bay",
+    "desc": "Tanks and crates. Raises the oxygen and food cap.",
+    "cost": 50,
+    "sprite": "res://assets/sprites/buildings/storage.png",
+    "storage": 80
+  },
+  {
+    "id": "dock",
+    "name": "Docking Port",
+    "desc": "Lets shuttles bring new crew when there are free beds, air and food.",
+    "cost": 200,
+    "sprite": "res://assets/sprites/buildings/dock.png",
+    "power": -2,
+    "dock": true,
+    "edge": true
+  }
+]

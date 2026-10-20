@@ -1,0 +1,28 @@
+GIMP Palette
+Name: G1 Station
+Columns: 8
+#
+ 11  10  23	void
+ 20  18  31	ink
+ 43  45  66	steel0
+ 74  78 105	steel1
+141 153 174	steel2
+201 209 220	steel3
+248 249 250	white
+ 29  53  87	navy
+ 47 111 191	blue
+111 179 255	sky
+ 31 138 135	teal
+ 63 208 201	cyan
+166 246 239	ice
+ 45 106  79	moss
+ 82 183 136	green
+183 228 199	mint
+255 209 102	amber
+244 162  89	orange
+168  85  42	rust
+230  57  70	red
+141  29  44	wine
+123  44 191	violet
+241 194 125	skin
+198 134  66	skin_dk

@@ -1,0 +1,9 @@
+# Godot
+.godot/
+*.translation
+export_presets.cfg
+build/
+
+# OS / tools
+.DS_Store
+__pycache__/
